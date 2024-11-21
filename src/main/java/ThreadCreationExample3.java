@@ -3,7 +3,7 @@ package main.java;
 import static java.lang.System.*;
 import static java.util.stream.IntStream.range;
 
-public class ThreatCreationExample3 {
+public class ThreadCreationExample3 {
     private static final int CREATE_THREADS_AMOUNT = 10;
     public static void main (final String... args) {
         final Runnable taskDisplayingThreadName = () -> out.println(Thread.currentThread().getName());
